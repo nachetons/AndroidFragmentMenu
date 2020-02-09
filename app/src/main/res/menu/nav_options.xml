@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_mail"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Email" />
+        <item
+            android:id="@+id/menu_alert"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Alerts" />
+        <item
+            android:id="@+id/menu_info"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Information" />
+    </group>
+
+
+
+            <group
+            android:id="@+id/secondGroup"
+            android:checkableBehavior="none">
+
+
+
+            <item
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/menu_opcion_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:actionLayout="@layout/switch_nav_options"
+                android:text="Remember"
+                android:title="Opcion" />
+            </group>
+
+
+</menu>
